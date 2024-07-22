@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .debug {
+            /* border: 1px solid red; */
+        }
+
+        .item {
+            /* width: fit-content; */
+            text-align: center;
+        }
+
+        .block {
+            /* block */
+        }
+
+        .date {
+            display: block;
+            text-align: center;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .nav-a {
+            color: black;
+        }
+
+        .nav-a:hover {
+            color: gray !important;
+        }
+
+        .nav-a:visited {
+            color: black;
+        }
+
+        .body {
+            display: flex;
+        }
+
+        .main {
+            flex-grow: 1;
+        }
+
+        .nav {
+            position: fixed;
+        }
+
+        @media screen and (max-width: 640px) {
+            /* .main {
+                padding-top: 150px;
+            } */
+        }
+    </style>
+
+</head>
+
+<body class="body">
+
+    <nav class="nav debug">
+        <ul>
+            <li>
+                <a class="nav-a" href="#requirements">Требования</a>
+            </li>
+            <li>
+                <a class="nav-a" href="#senior">Проект «стихотворение»</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <main class="main debug">
+        <article class="item debug" id="requirements">
+            <h1 class="title">Требования</h1>
+
+            <p class="block">
+                Зачем? Куда ведёт нас путь?<br>
+                Забыл. Не знал. Не помнит.<br>
+                Рукою крепко сжав намордник,<br>
+                Возьмёт и высрет. Может, и работать будет.<br>
+            </p>
+
+            <p class="block">
+                Дойдёт? Скорее, доползет<br>
+                И будет даже публике представлен.<br>
+                Какой ценой? Ну, это Настя знает.<br>
+                Улыбкою последней станет он.<br>
+            </p>
+
+            <p class="block">
+                Конец требований.
+            </p>
+
+            <p class="block">
+                Нарыв откроется вовнутрь.
+            </p>
+
+            <p class="block">
+                Проект. Тимлид. ML. Продукт.<br>
+                Post-mortem-презентация.
+            </p>
+
+
+            <p class="block">
+                <time class="date" datetime="2022-06-28">28.06.2024</time>
+            </p>
+        </article>
+
+        <article class="item debug" id="senior">
+            <h1 class="title">Проект «стихотворение»</h1>
+
+            <p class="block">
+                Синьору вендетта не светит,<br>
+                Его нам не расстрелять.<br>
+                И за него не ответит<br>
+                Его итальянская мать.<br>
+                Вон тот стэнд - не занимать.<br>
+            </p>
+
+            <p class="block">
+                Смертельная ветка все ближе<br>
+                Все ближе последний мёрдж<br>
+                Глотая выстрелы в спину<br>
+                Ты снова «работать» идёшь.<br>
+                Кстати, когда ты живёшь?<br>
+
+            </p>
+
+            <p class="block">
+                Разделяя ответственность между,<br>
+                Ты сводишь ее на себя.<br>
+                Сейчас ты сказал , что протестил,<br>
+                Секунду спустя - устарела инфа,<br>
+                Энтропией она полна.<br>
+
+            </p>
+
+            <p class="block">
+                Созвонно-зловонным воздухом<br>
+                Питаясь, по жизни идёт.<br>
+                Чем больше пытается он понять,<br>
+                Тем меньше в конце поймёт.<br>
+                И хрен с ним, и так сойдёт.<br>
+            </p>
+
+            <p class="block">
+                Один день - синьор, усталый,<br>
+                Уснув, отойдёт в мир иной.<br>
+                В ловушку проектных знаний<br>
+                Загнанный сам собой.<br>
+                В начале - проект настрой.<br>
+            </p>
+
+            <p class="block">
+                ...And his brain finally crashed,<br>
+                Fucked, and merged to death.<br>
+            </p>
+
+            <p class="block">
+                <time class="date" datetime="2024-06-28">28.06.2024</time>
+            </p>
+        </article>
+    </main>
+</body>
+
+</html>
